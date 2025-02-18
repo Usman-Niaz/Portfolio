@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Bootstrap CSS -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <title>Usman Niaz</title>
+  </head>
+
+  <body>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg" id="nav-width">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="#intro"> Usman Niaz </a>
+
+        <!-- Mobile Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span id="toggle-image"><img src="./images/Icon.svg" alt="" /></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav" id="nav-bor">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#Work">Work</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item" id="border"></li>
+            <li class="nav-item" id="dark">
+              <a href="#"
+                ><img
+                  class="img-fluid"
+                  src="./images/Icon Button.svg"
+                  alt="Dark-Mode Image"
+              /></a>
+            </li>
+            <li class="nav-item" id="download">
+              <button>
+                <p>Download Cv</p>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section introduction -->
+
+    <div class="container mt-5" id="intro">
+      <div class="row d-flex gap-4">
+        <!-- Left Container (Default Left, Moves Below in Responsive) -->
+        <div class="col-md-7 col-12 p-3 order-2 order-md-1">
+          <h1>Hi, Usman Niaz 👋</h1>
+          <p>
+            I'm a full-stack developer (React.js & Node.js) specializing in
+            building and occasionally designing exceptional digital experiences
+            that are fast, accessible, visually appealing, and responsive. My
+            expertise extends to web and mobile development using React.js,
+            React Native, MongoDB, Node.js, and Firebase, as well as IoT
+            solutions with Arduino. Even after 1+ years of developing
+            applications, I remain passionate about crafting innovative and
+            efficient solutions.
+          </p>
+          <p>
+            <img src="./images/location.svg" alt="location" /> Mansehra, KPK
+            Pakistan
+          </p>
+          <p>
+            <img src="./images/Available.svg" alt="available" />Available for
+            new projects
+          </p>
+          <div class="col-12 d-flex">
+            <img src="./images/git.svg" alt="Git-hub" />
+            <img src="./images/twitter.svg" alt="twitter" />
+            <img src="./images/figma.svg" alt="figma" />
+          </div>
+        </div>
+
+        <!-- Right Container (Default Right, Moves on Top in Responsive) -->
+        <div class="col-md-4 col-12 order-1 order-md-2 pic-contain">
+          <div class="pic">
+            <img src="./images/pic.jpg" alt="Picture" />
+          </div>
+          <div class="pic-bg"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Section About-Me -->
+    <section class="container-fluid" id="about-me">
+      <div class="row d-flex" id="about-me-inner">
+        <div
+          class="d-flex justify-content-center align-content-center"
+          id="about-me-inner-btn"
+        >
+          <button class="buton" disabled>
+            <p>About me</p>
+          </button>
+        </div>
+
+        <div class="col-md-6 col-12">
+          <div class="pic2">
+            <img src="./images/pic2.jpg" alt="Picture" />
+          </div>
+        </div>
+        <div class="col-md-6 col-12" id="about">
+          <h1>Curious about me? Here you have it:</h1>
+          <p>
+            I'm a passionate full-stack developer (React.js & Node.js) with a
+            focus on creating exceptional, user-centric digital experiences that
+            are fast, accessible, visually appealing, and responsive. I
+            specialize in both web and mobile development using React.js, React
+            Native, MongoDB, Node.js, and Firebase. Additionally, I work on IoT
+            solutions with Arduino. Even with over a year of experience, I'm
+            still deeply passionate about building innovative, efficient
+            solutions.
+            <br />
+            <br />
+            I started my development journey in 2024, and since then, I've grown
+            continuously, embracing new challenges and learning the latest
+            technologies. Currently, I'm using React.js, React Native, Angular,
+            TypeScript, Node.js, TailwindCSS, Firebase, MongoDB, and more to
+            build modern web applications.
+            <br /><br />
+            When I’m not in full-on developer mode, you can find me on Twitter
+            or Indie Hacker, exploring the journeys of early startups or
+            enjoying some downtime. Feel free to follow me on Twitter for
+            tech-related insights or on GitHub where I build in public.
+          </p>
+          <p>Finally, some quick bits about me.</p>
+
+          <div class="d-flex">
+            <div>
+              <ul class="d-inline-block">
+                <li>BS in Software Engineering</li>
+                <li>Full-time freelancer</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="d-inline-block">
+                <li>Avid learner</li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            One last thing, I'm available for freelance work, so feel free to
+            reach out and say hello! I promise I don't bite 😉
+          </p>
+          <!-- Content for right div -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Skills -->
+    <section class="container-fluid" id="skill">
+      <div class="" id="skill-inner">
+        <div
+          class="d-flex justify-content-center align-content-center"
+          id="Skill-inner-btn"
+        >
+          <button class="buton" disabled>
+            <p>Skills</p>
+          </button>
+        </div>
+        <p id="text">The skills, tools and technologies I am really good at:</p>
+      </div>
+      <div class="row text-center justify-content-between" id="imagess">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/js.svg" alt="" />
+          <p>Javascript</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/ts.svg" alt="" />
+          <p>Typescript</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/react.svg" alt="" />
+          <p>React</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/nextjs.svg" alt="" />
+          <p>Next.js</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/nodejs.svg" alt="" />
+          <p>Node.js</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/express.svg" alt="" />
+          <p>Express.js</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/nest.svg" alt="" />
+          <p>Nest.js</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/socket.svg" alt="" />
+          <p>Socket.io</p>
+        </div>
+      </div>
+
+      <div class="row text-center justify-content-between" id="imagess">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/postgresql.svg" alt="" />
+          <p>PostgreSQL</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/mongo.svg" alt="" />
+          <p>MongoDB</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/sass.svg" alt="" />
+          <p>Sass/Scss</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/tailwindcss.svg" alt="" />
+          <p>Tailwindcss</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/figmaimage.svg" alt="" />
+          <p>Figma</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/cypress.svg" alt="" />
+          <p>Cypress</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/storybook.svg" alt="" />
+          <p>Storybook</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1">
+          <img src="./images/gitimage.svg" alt="" />
+          <p>Git</p>
+        </div>
+      </div>
+    </section>
+    <!-- Section Experience -->
+    <section class="container-fluid" id="Experience">
+      <div class="pt-5 pb-2" id="skill-inner">
+        <div
+          class="d-flex justify-content-center align-content-center"
+          id="Skill-inner-btn"
+        >
+          <button class="buton" disabled>
+            <p>Experience</p>
+          </button>
+        </div>
+        <p id="text">Here is a quick summary of my most recent experiences:</p>
+      </div>
+
+      <!-- Card1 -->
+      <div class="container d-flex justify-content-center">
+        <div class="row d-flex justify-content-center" id="upword-card">
+          <div class="col-md-3">
+            <img src="./images/upwork.svg" alt="upwork logo" />
+          </div>
+          <div class="col-md-6">
+            <h4>Sr. Frontend Developer</h4>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+          </div>
+          <div class="col-md-3" id="date">
+            <p>Nov 2021 - Present</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="container d-flex justify-content-center">
+        <div class="row d-flex justify-content-center" id="upword-card">
+          <div class="col-md-3">
+            <img src="./images/upwork.svg" alt="upwork logo" />
+          </div>
+          <div class="col-md-6">
+            <h4>Team Lead</h4>
+            <ul>
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+          </div>
+          <div class="col-md-3" id="date">
+            <p>Jul 2017 - Oct 2021</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="container d-flex justify-content-center">
+        <div class="row d-flex justify-content-center" id="upword-card">
+          <div class="col-md-3">
+            <img src="./images/upwork.svg" alt="upwork logo" />
+          </div>
+          <div class="col-md-6">
+            <h4>Full Stack Developer</h4>
+            <ul>
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+          </div>
+          <div class="col-md-3" id="date">
+            <p>Dec 2015 - May 2017</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Work -->
+    <section class="container-fluid" id="Work">
+      <div class="pt-5 pb-2" id="skill-inner">
+        <div
+          class="d-flex justify-content-center align-content-center"
+          id="Skill-inner-btn"
+        >
+          <button class="buton" disabled>
+            <p>Work</p>
+          </button>
+        </div>
+        <p id="text">Some of the noteworthy projects I have built:</p>
+      </div>
+      <!-- card 1 -->
+      <div class="container d-flex justify-content-center">
+        <div class="row d-flex justify-content-center" id="work-card">
+          <div class="col-md-6 col-lg-6" id="work-inner1">
+            <img src="./images/project1.svg" alt="project picture" />
+          </div>
+          <div class="col-md-6 col-lg-6" id="work-inner2">
+            <h4>Fiskil</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>React</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Next.js</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Typescript</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Nest.js</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>PostgreSQL</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Tailwindcss</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Figma</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Cypress</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Storybook</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Git</p>
+                </button>
+              </div>
+            </div>
+            <img id="copy-icon" src="./images/copy-icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="container d-flex justify-content-center">
+        <div class="row d-flex justify-content-center" id="work-card">
+          <div
+            class="col-md-6 col-lg-6 order-2 order-md-1 order-lg-1"
+            id="middle-work-inner2"
+          >
+            <h4>Fiskil</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>React</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Next.js</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Typescript</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Nest.js</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>PostgreSQL</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Tailwindcss</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Figma</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Cypress</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Storybook</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Git</p>
+                </button>
+              </div>
+            </div>
+            <img id="copy-icon" src="./images/copy-icon.svg" alt="" />
+          </div>
+          <div
+            class="col-md-6 col-lg-6 order-1 order-md-2 order-lg-2"
+            id="middle-work-inner1"
+          >
+            <img src="./images/project1.svg" alt="project picture" />
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="container d-flex justify-content-center">
+        <div class="row d-flex justify-content-center" id="work-card">
+          <div class="col-md-6 col-lg-6" id="work-inner1">
+            <img src="./images/project1.svg" alt="project picture" />
+          </div>
+          <div class="col-md-6 col-lg-6" id="work-inner2">
+            <h4>Fiskil</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>React</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Next.js</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Typescript</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Nest.js</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>PostgreSQL</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Tailwindcss</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Figma</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Cypress</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Storybook</p>
+                </button>
+              </div>
+              <div id="Skill-inner-btn">
+                <button class="buton" disabled>
+                  <p>Git</p>
+                </button>
+              </div>
+            </div>
+            <img id="copy-icon" src="./images/copy-icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Testimonials -->
+    <section class="container-fluid" id="Testimonials">
+      <div class="pt-5 pb-2" id="skill-inner">
+        <div
+          class="d-flex justify-content-center align-content-center"
+          id="Skill-inner-btn"
+        >
+          <button class="buton" disabled>
+            <p>Testimonials</p>
+          </button>
+        </div>
+        <p id="text">Nice things people have said about me:</p>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-center gap-5">
+          <!-- First Div -->
+          <div class="col-md-3 col-lg-3 col-12" id="Testimonials-inner">
+            <div class="d-flex justify-content-center">
+              <img src="./images/avatar.svg" alt="" />
+            </div>
+            <div class="p-2" id="Testimonials-inner-text">
+              <p>
+                “Job well done! I am really impressed. He is very very good at
+                what he does:) I would recommend Sagar and will rehire in the
+                future for Frontend development.”
+              </p>
+            </div>
+            <div class="text-center">
+              <h4>John Doe</h4>
+              <p>Founder - xyz.com</p>
+            </div>
+          </div>
+
+          <!-- Second Div -->
+          <div class="col-md-3 col-lg-3 col-12" id="Testimonials-inner">
+            <div class="d-flex justify-content-center">
+              <img src="./images/avatar.svg" alt="" />
+            </div>
+            <div class="p-2" id="Testimonials-inner-text">
+              <p>
+                “Job well done! I am really impressed. He is very very good at
+                what he does:) I would recommend Sagar and will rehire in the
+                future for Frontend development.”
+              </p>
+            </div>
+            <div class="text-center">
+              <h4>John Doe</h4>
+              <p>Founder - xyz.com</p>
+            </div>
+          </div>
+
+          <!-- Third Div -->
+          <div class="col-md-3 col-lg-3 col-12" id="Testimonials-inner">
+            <div class="d-flex justify-content-center">
+              <img src="./images/avatar.svg" alt="" />
+            </div>
+            <div class="p-2" id="Testimonials-inner-text">
+              <p>
+                “Job well done! I am really impressed. He is very very good at
+                what he does:) I would recommend Sagar and will rehire in the
+                future for Frontend development.”
+              </p>
+            </div>
+            <div class="text-center">
+              <h4>John Doe</h4>
+              <p>Founder - xyz.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Contact -->
+    <section class="container-fluid " id="Contact">
+      <div class="pt-5 pb-2" id="skill-inner">
+        <div
+          class="d-flex justify-content-center align-content-center"
+          id="Skill-inner-btn"
+        >
+          <button class="buton" disabled>
+            <p>Get in touch</p>
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto" id="Contact-inner">
+            <div class="row text-white p-3 mb-3">
+              <p>
+                What’s next? Feel free to reach out to me if you're looking for
+                a developer, have a query, or simply want to connect.
+              </p>
+            </div>
+
+            <div class="row  text-center mb-3 p-3">
+              <span>
+                <img src="./images/gmail.svg" alt="gmail icon" />
+                Usmanniaz465@gmail.com
+                <img src="./images/copymail.svg" alt="copy icon" />
+              </span>
+              <span>
+                <img src="./images/gmail.svg" alt="gmail icon" />
+                +923435200092
+                <img src="./images/copymail.svg" alt="copy icon" />
+              </span>
+            </div>
+            <div class="row  d-flex flex-row p-3">
+              <p class="text-center">
+                You may also find me on these platforms!
+              </p>
+              <div class="d-flex justify-content-center">
+                <img src="./images/git.svg" alt="" />
+                <img src="./images/twitter.svg" alt="" />
+                <img src="./images/figma.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Footer -->
+    <footer class="container-fluid text-white py-3" id="Footer">
+      <div class="container d-flex justify-content-center align-items-center text-center">
+          <p class="mb-0">@2025 | Designed and coded with ❤️ by Usman Niaz</p>
+      </div>
+  </footer>
+  
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

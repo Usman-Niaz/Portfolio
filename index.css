@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+:root {
+  --logo-text-size: 30px;
+  --body-color: #030712;
+  --font-color: white;
+  --name-heading: 30px;
+  --div-color: #111827;
+  --picture-bg-color: #374151;
+  --button-bg-color: #374151;
+  --text-size: 16px;
+  --email-text-size: 36px;
+  --font-family: inter;
+
+  /* Mobile View */
+  --mobile-logo-text-size: 30px;
+  --mobile-name-heading: 60px;
+}
+
+body {
+  background-color: var(--body-color) !important;
+  font-family: var(--font-family) !important;
+  color: var(--font-color) !important;
+  max-width: 1440px !important;
+}
+
+.navbar-brand {
+  font-family: var(--font-family) !important;
+  font-size: var(--name-heading) !important;
+  font-weight: 700 !important;
+  line-height: 36px !important;
+  color: var(--font-color) !important;
+  text-decoration: none !important;
+}
+.img-fluid {
+  max-width: 24px !important;
+  max-height: 24px !important;
+}
+#dark {
+  margin-top: 3px !important;
+  margin-left: 20px !important;
+}
+#border {
+  border-left: 1px solid #1f2937 !important;
+  max-height: 21px !important;
+  margin-top: 9px !important;
+  margin-left: 7px !important;
+}
+a {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: var(--font-color) !important;
+}
+.nav-item button {
+  font-family: var(--font-family) !important;
+  background-color: white !important;
+  border: none !important;
+  border-radius: 12px !important;
+  width: 136px !important;
+  height: 36px !important;
+  margin-left: 16px !important;
+}
+.nav-item button p {
+  font-family: var(--font-family) !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  margin-top: 5px !important;
+}
+/* Hide the default icon when the navbar is toggled */
+.navbar:has(.navbar-toggler[aria-expanded="true"]) #toggle-image {
+  display: none !important;
+}
+
+/* Show the new icon */
+.navbar:has(.navbar-toggler[aria-expanded="true"]) .navbar-toggler::after {
+  content: "";
+  display: inline-block !important;
+  width: 24px !important; /* Adjust width as needed */
+  height: 24px !important;
+  background-image: url("./images/back-icon.svg") !important; /* Replace with your close icon */
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+#intro {
+  height: 450px;
+}
+
+.left-contain {
+  max-width: 768px !important;
+}
+.left-contain h1 {
+  font-size: 60px !important;
+  font-weight: 700 !important;
+}
+.left-contain p {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: justify !important;
+}
+
+.pic-contain {
+  max-width: 384px;
+  position: relative !important;
+}
+.pic {
+  position: absolute;
+  width: 280px;
+  height: 320px;
+  z-index: 1;
+  margin-left: 3rem;
+}
+.pic-bg {
+  position: absolute !important;
+  width: 280px;
+  height: 320px;
+  margin-top: 25px;
+  margin-left: 64px;
+  background-color: var(--picture-bg-color) !important;
+  z-index: 0 !important;
+}
+#about-me {
+  height: 900px;
+  background-color: var(--div-color);
+}
+#about-me-inner {
+  padding: 5rem;
+}
+#about-me-inner-btn {
+  height: 28px;
+  margin-bottom: 3rem;
+}
+#about-me-inner-btn button {
+  width: 105px;
+  height: 28px;
+  border: none;
+  border-radius: 12px;
+}
+#about-me-inner-btn p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  margin-top: 4px;
+}
+#about {
+  height: 690px;
+  overflow: hidden; /* Ensures content is not hidden */
+  word-wrap: break-word; /* Breaks long words */
+  white-space: normal; /* Allows wrapping */
+}
+#about h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.buton {
+  background-color: var(--button-bg-color) !important;
+}
+#about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+}
+.pic2 {
+  margin-left: 3rem;
+}
+.pic2 img {
+  width: 400px;
+  height: 480px;
+  box-shadow: -28px 28px 0px #374151;
+}
+#skill {
+  height: 560px;
+  padding: 5rem;
+}
+#Skill-inner-btn {
+  height: 28px;
+  margin-bottom: 3px;
+}
+#Skill-inner-btn button {
+  width: 105px;
+  height: 28px;
+  border: none;
+  border-radius: 12px;
+}
+#Skill-inner-btn p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  margin-top: 4px;
+}
+#text {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#imagess img {
+  width: 58px;
+  height: 42px;
+}
+#imagess p {
+  margin-top: 26px;
+  font-weight: 400px;
+  font-size: 18px;
+}
+#Experience {
+  height: 1050px;
+  background-color: var(--div-color) !important;
+}
+#upword-card {
+  background-color: var(--button-bg-color) !important;
+  max-width: 896px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 3rem !important;
+}
+#upword-card h4 {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+#upword-card li {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+#date p {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+#Work {
+  height: 1580px;
+}
+#work-card {
+  max-width: 1152px;
+  margin-bottom: 3rem !important;
+}
+#work-inner1 img {
+  width: 480px !important;
+  height: 384px !important;
+}
+#work-inner1 {
+  background-color: var(--button-bg-color) !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+}
+
+#work-inner2 {
+  background-color: var(--div-color) !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+#work-inner2 h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#work-inner2 p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#copy-icon {
+  width: 24px;
+  height: 24px;
+}
+
+#middle-work-inner2 {
+  background-color: var(--div-color) !important;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+}
+#middle-work-inner2 h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#middle-work-inner2 p {
+  font-size: 16px;
+  font-weight: 400;
+}
+#middle-work-inner1 img {
+  width: 480px !important;
+  height: 384px !important;
+}
+#middle-work-inner1 {
+  background-color: var(--button-bg-color) !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+#Testimonials {
+  height: 550px;
+  background-color: var(--div-color) !important;
+}
+#Testimonials-inner {
+  background-color: var(--button-bg-color) !important;
+  padding: 20px;
+  border-radius: 10px;
+}
+#Testimonials-inner h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#Testimonials-inner-text p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+#Contact {
+  height: 560px;
+}
+#Contact-inner p{
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: justify;
+}
+#Contact-inner span{
+  font-size: 36px;
+  font-weight: 600px;
+}
+#Footer{
+  height: 58px;
+  background-color: var(--div-color);
+}
+#Footer p{
+  font-size: 14px;
+  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  #download {
+    display: flex !important;
+  }
+  #download button {
+    margin-top: 2px;
+    margin-left: 2px !important;
+    width: 100% !important;
+  }
+
+  #dark {
+    display: flex !important; /* Ensure it's visible */
+    justify-content: space-between;
+    margin-left: 0 !important;
+    margin-bottom: 16px !important;
+  }
+
+  #dark::before {
+    content: "Switch Theme" !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    display: inline-block !important;
+    margin-right: 8px; /* Space between text and icon */
+  }
+
+  #border {
+    border-bottom: 1px solid #1f2937 !important;
+    margin-left: 0 !important;
+    margin-bottom: 16px !important;
+  }
+
+  #nav-bor {
+    border-top: 1px solid #1f2937 !important;
+    margin-top: 8px !important;
+  }
+  .pic2 img {
+    width: 309px;
+    height: 398px;
+}
+  #skill {
+    height: 670px;
+  }
+  #Experience {
+    height: 1050px;
+  }
+  #work-inner1 img {
+    width: 331px !important;
+    height: 384px !important;
+  }
+  #middle-work-inner1 img {
+    width: 331px !important;
+    height: 384px !important;
+  }
+  #Work {
+    height: 1680px;
+  }
+  #Testimonials {
+    height: 700px;
+  }
+  #Contact {
+    height: 520px;
+}
+#Contact-inner span{
+  font-size: 24px;
+}
+
+}
+
+@media (max-width: 768px) {
+  #download {
+    display: flex !important;
+  }
+  #download button {
+    margin-top: 2px;
+    margin-left: 2px !important;
+    width: 100% !important;
+  }
+  #dark {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0 !important;
+    margin-bottom: 16px !important;
+  }
+  #dark::before {
+    content: "Switch Theme" !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    display: inline-block !important;
+  }
+  #border {
+    border-bottom: 1px solid #1f2937 !important;
+    margin-left: 0 !important;
+    margin-bottom: 16px !important;
+  }
+  #nav-bor {
+    border-top: 1px solid #1f2937 !important;
+    margin-top: 8px !important;
+  }
+
+  .pic-contain {
+    display: flex !important;
+    width: 343px !important;
+    height: 300px !important;
+    margin-right: 100px !important;
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+  }
+  .pic {
+    width: 240px !important;
+    margin-left: 52px !important;
+    height: 280px !important;
+    margin-right: 46px !important;
+  }
+  .pic-bg {
+    width: 300px !important;
+    height: 311px !important;
+    margin-top: 20px !important;
+    margin-right: 63px !important;
+    margin-left: 90px !important;
+  }
+  .left-contain {
+    width: 343px !important;
+    height: 404px !important;
+  }
+  .left-contain h1 {
+    font-size: 34px !important;
+  }
+  #intro {
+    height: 880px;
+  }
+  #about-me {
+    height: 1510px;
+  }
+  #about {
+    height: 1510px;
+  }
+  #about-me-inner {
+    padding: 0rem;
+  }
+  .pic2 {
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    height: 375px;
+    width: 303px;
+    box-shadow: 28px 18px 0px #374151;
+  }
+  .pic2 img {
+    height: 375px;
+    width: 303px;
+    margin-left: 8px;
+    box-shadow: -20px 18px 0px #374151;
+  }
+
+  #about h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #about-me-inner {
+    display: flex;
+    justify-content: center;
+  }
+  #about-me-inner-btn button {
+    margin-top: 14px;
+  }
+  #skill {
+    height: 916px;
+    padding: 1rem;
+  }
+  #text {
+    font-size: 18px;
+  }
+  #imagess img {
+    width: 58px;
+    height: 42px;
+  }
+  #imagess p {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  #Experience {
+    height: 1230px;
+  }
+  #upword-card h4 {
+    font-size: 18px !important;
+  }
+  #Work {
+    height: 2340px;
+  }
+  #work-inner1 img {
+    width: 279px !important;
+    height: 192px !important;
+  }
+  #work-inner2 h4 {
+    font-size: 18px;
+  }
+  #work-inner1 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  #work-inner2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  #middle-work-inner2 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  #middle-work-inner2 h4 {
+    font-size: 18px;
+  }
+  #middle-work-inner1 img {
+    width: 279px !important;
+    height: 192px !important;
+  }
+  #middle-work-inner1 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #Testimonials-inner h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #Testimonials {
+    height: 1200px;
+  }
+  #Contact {
+    height: 600px;
+}
+#Contact-inner span{
+  font-size: 18px;
+}
+}
