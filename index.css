@@ -442,6 +442,9 @@ a {
     border-top: 1px solid #1f2937 !important;
     margin-top: 8px !important;
   }
+  #left-contain h1 {
+    font-size: 30px !important;
+}
 
   .pic-contain {
     display: flex !important;
@@ -472,7 +475,7 @@ a {
     font-size: 34px !important;
   }
   #intro {
-    height: 1050px;
+    height: 950px;
   }
   #about-me {
     height: 1370px;
