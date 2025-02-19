@@ -530,11 +530,11 @@ a {
     font-size: 18px !important;
   }
   #Work {
-    height: 2115px;
+    height: 2420px;
   }
   #work-inner1 img {
-    width: 279px !important;
-    height: 192px !important;
+    width: 340px !important;
+    height: 300px !important;
   }
   #work-inner2 h4 {
     font-size: 18px;
@@ -563,8 +563,8 @@ a {
     font-size: 18px;
   }
   #middle-work-inner1 img {
-    width: 279px !important;
-    height: 192px !important;
+    width: 340px !important;
+    height: 300px !important;
   }
   #middle-work-inner1 {
     border-top-right-radius: 0;
