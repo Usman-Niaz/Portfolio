@@ -90,17 +90,17 @@ a {
   background-repeat: no-repeat !important;
 }
 #intro {
-  height: 450px;
+  height: 500px;
 }
 
-.left-contain {
+#left-contain {
   max-width: 768px !important;
 }
-.left-contain h1 {
+#left-contain h1 {
   font-size: 60px !important;
   font-weight: 700 !important;
 }
-.left-contain p {
+#left-contain p {
   font-size: 16px !important;
   font-weight: 400 !important;
   text-align: justify !important;
@@ -265,9 +265,10 @@ a {
   font-size: 20px;
   font-weight: 600;
 }
-#work-inner2 p {
+#work-inner-text{
   font-size: 16px;
   font-weight: 400;
+  text-align: justify;
 }
 
 #copy-icon {
@@ -301,7 +302,7 @@ a {
   padding: 20px;
 }
 #Testimonials {
-  height: 550px;
+  height: 640px;
   background-color: var(--div-color) !important;
 }
 #Testimonials-inner {
@@ -374,6 +375,9 @@ a {
     border-top: 1px solid #1f2937 !important;
     margin-top: 8px !important;
   }
+  #intro {
+    height: 558px;
+}
   .pic2 img {
     width: 309px;
     height: 398px;
