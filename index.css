@@ -58,6 +58,9 @@ a {
   font-weight: 500 !important;
   color: var(--font-color) !important;
 }
+.navbar{
+  background-color: #030712;
+}
 .nav-item button {
   font-family: var(--font-family) !important;
   background-color: white !important;
@@ -67,12 +70,14 @@ a {
   height: 36px !important;
   margin-left: 16px !important;
 }
-.nav-item button p {
+.nav-item button a {
   font-family: var(--font-family) !important;
   font-size: 16px !important;
   font-weight: 500 !important;
   line-height: 24px !important;
   margin-top: 5px !important;
+  color: #030712 !important;
+  text-decoration: none !important;
 }
 /* Hide the default icon when the navbar is toggled */
 .navbar:has(.navbar-toggler[aria-expanded="true"]) #toggle-image {
